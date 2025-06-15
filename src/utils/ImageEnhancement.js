@@ -1,4 +1,5 @@
-const API_KEY = 'wxeivanxqay1fzvdf'
+const API_KEY = 'wxa3a348k4qszmwd5' //new api key added on 2024-01-15
+// Note: This API key is for demonstration purposes only. Please use your own API key in production.
 const BASE_URL = 'https://techhk.aoscdn.com/api/tasks/visual/scale'
 import axios from 'axios'
 
