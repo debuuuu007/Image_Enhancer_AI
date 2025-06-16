@@ -37,6 +37,12 @@ const ImagePreview = ({ uploadImage, enhancedImage, loading, enhanceImage, error
                 {error && (
                     <div className="text-red-500 mt-2">{error}</div>
                 )}
+
+                { enhancedImage && (
+                    <a href={enhancedImage} download className='inline-block bg-green-600 p-2 mt-3 rounded-lg font-semibold'>
+                        Download
+                    </a>
+                )}
             </div>
         </div>
     )
